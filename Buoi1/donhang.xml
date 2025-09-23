@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orders SYSTEM "donhang.dtd">
 <orders xmlns:order="http://company.com/order" xmlns:prod="http://company.com/product">
     <order:order id="O001" customer="Nguyễn Văn A" date="2025-03-02">
         <prod:item id="P001" quantity="2" price="500">
@@ -22,7 +23,7 @@
         <prod:item id="P002" quantity="2" price="2000">
             <prod:name>Laptop Dell</prod:name>
         </prod:item>
-        <prod:item id="P004" quantity="1" price="1000">
+        <prod:item id="S004" quantity="1" price="1000">
             <prod:name>Bàn phím</prod:name>
         </prod:item>
     </order:order>
