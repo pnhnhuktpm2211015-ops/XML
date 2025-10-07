@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Kiểu dữ liệu dùng chung -->
+  <xs:simpleType name="MaType"> <!--MaType để dùng cho các mã (MSSV, MALOP, MAKHOA)-->
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="10"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="TenType">
+    <xs:restriction base="xs:string"> <!--Dùng cho các cột kiểu “tên” (như HOTEN, TENLOP).-->
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Ràng buộc tên khoa -->
+  <xs:simpleType name="TenKhoaType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-z]+"/> <!--pattern — chỉ được chứa chữ thường a-z.-->
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Ràng buộc số điện thoại: bắt đầu bằng 0 và theo sau là 9 số -->
+  <xs:simpleType name="SDTType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="0[0-9]{9}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Cấu trúc chính -->
+  <xs:element name="DSSV">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="KHOAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KHOA" maxOccurs="unbounded"> <!--maxOccurs="unbounded" nghĩa là có thể có nhiều phần tử-->
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="MAKHOA" type="MaType"/>
+                    <xs:element name="TENKHOA" type="TenKhoaType"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="LOPS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LOP" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="MALOP" type="MaType"/>
+                    <xs:element name="TENLOP" type="TenType"/>
+                    <xs:element name="MAKHOA" type="MaType"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="SINHVIENS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SINHVIEN" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="MSSV" type="MaType"/>
+                    <xs:element name="HOTEN" type="TenType"/>
+                    <xs:element name="EMAIL" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>Email sinh viên</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="DIACHI" type="xs:string"/>
+                    <xs:element name="SDT" type="SDTType"/>
+                    <xs:element name="MALOP" type="MaType"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+
+    <!-- Định nghĩa khóa chính & khóa ngoại -->
+    <xs:key name="KhoaKey">
+      <xs:selector xpath="KHOAS/KHOA"/>
+      <xs:field xpath="MAKHOA"/> <!-- xpath định nghĩa nơi tìm và trường được xem là khóa chính-->
+    </xs:key>
+
+    <xs:key name="LopKey">
+      <xs:selector xpath="LOPS/LOP"/>
+      <xs:field xpath="MALOP"/>
+    </xs:key>
+
+    <xs:key name="SinhVienKey">
+      <xs:selector xpath="SINHVIENS/SINHVIEN"/>
+      <xs:field xpath="MSSV"/>
+    </xs:key>
+
+    <!-- Ràng buộc tham chiếu -->
+    <xs:keyref name="LopRef_Khoa" refer="KhoaKey">
+      <xs:selector xpath="LOPS/LOP"/>
+      <xs:field xpath="MAKHOA"/>
+    </xs:keyref>
+
+    <xs:keyref name="SVRef_Lop" refer="LopKey">
+      <xs:selector xpath="SINHVIENS/SINHVIEN"/>
+      <xs:field xpath="MALOP"/>
+    </xs:keyref>
+
+  </xs:element>
+
+</xs:schema>
