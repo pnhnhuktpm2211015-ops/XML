@@ -1,0 +1,82 @@
+<QUANLYBANAN>
+    <BANS>
+        <BAN>
+            <TENBAN>B01</TENBAN>
+            <SOBAN>1</SOBAN>
+        </BAN>
+        <BAN>
+            <TENBAN>B02</TENBAN>
+            <SOBAN>2</SOBAN>
+        </BAN>
+    </BANS>
+
+    <NHANVIENS>
+        <NHANVIEN>
+            <MANV>NV01</MANV>
+            <TENNV>Nguyen Van A</TENNV>
+            <SDT>0912345678</SDT>
+            <DIACHI>Can Tho</DIACHI>
+            <GIOITINH>Nam</GIOITINH>
+            <USERNAME>nva</USERNAME>
+            <PASSWORD>123</PASSWORD>
+        </NHANVIEN>
+        <NHANVIEN>
+            <MANV>NV02</MANV>
+            <TENNV>Le Thi B</TENNV>
+            <SDT>0987654321</SDT>
+            <DIACHI>Can Tho</DIACHI>
+            <GIOITINH>Nu</GIOITINH>
+            <USERNAME>ltb</USERNAME>
+            <PASSWORD>123</PASSWORD>
+        </NHANVIEN>
+    </NHANVIENS>
+
+    <MONS>
+        <MON>
+            <MAMON>M01</MAMON>
+            <TENMON>Com chien</TENMON>
+            <GIA>50000</GIA>
+            <HINHANH>comchien.jpg</HINHANH>
+        </MON>
+        <MON>
+            <MAMON>M02</MAMON>
+            <TENMON>Mi xao</TENMON>
+            <GIA>60000</GIA>
+            <HINHANH>mixao.jpg</HINHANH>
+        </MON>
+    </MONS>
+
+    <HOADONS>
+        <HOADON>
+            <SOHD>HD01</SOHD>
+            <NGAYLAP>2025-10-10</NGAYLAP>
+            <TONGTIEN>150000</TONGTIEN>
+            <SOBAN>1</SOBAN>
+            <MANV>NV01</MANV>
+            <CTHD>
+                <CT>
+                    <MAMON>M01</MAMON>
+                    <SOLUONG>1</SOLUONG>
+                </CT>
+                <CT>
+                    <MAMON>M02</MAMON>
+                    <SOLUONG>2</SOLUONG>
+                </CT>
+            </CTHD>
+        </HOADON>
+
+        <HOADON>
+            <SOHD>HD03</SOHD>
+            <NGAYLAP>2025-10-11</NGAYLAP>
+            <TONGTIEN>120000</TONGTIEN>
+            <SOBAN>2</SOBAN>
+            <MANV>NV03</MANV>
+            <CTHD>
+                <CT>
+                    <MAMON>M01</MAMON>
+                    <SOLUONG>1</SOLUONG>
+                </CT>
+            </CTHD>
+        </HOADON>
+    </HOADONS>
+</QUANLYBANAN>
