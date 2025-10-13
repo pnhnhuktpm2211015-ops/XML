@@ -1,0 +1,10 @@
+<!ELEMENT NhanViens (NhanVien+)>
+<!ELEMENT NhanVien (nhanVien_id, tenNhanVien, gioiTinh, diaChi, sdt, taiKhoan, matKhau, trangThaiDangNhap)>
+<!ELEMENT nhanVien_id (#PCDATA)>
+<!ELEMENT tenNhanVien (#PCDATA)>
+<!ELEMENT gioiTinh (#PCDATA)>
+<!ELEMENT diaChi (#PCDATA)>
+<!ELEMENT sdt (#PCDATA)>
+<!ELEMENT taiKhoan (#PCDATA)>
+<!ELEMENT matKhau (#PCDATA)>
+<!ELEMENT trangThaiDangNhap (#PCDATA)>

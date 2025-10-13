@@ -1,0 +1,10 @@
+<!ELEMENT HoaDons (HoaDon+)>
+<!ELEMENT HoaDon (hoaDon_id, khuyenMai_id, nhanVien_id, khachHang_id, tongTien, khachTra, ghiChu, created_at)>
+<!ELEMENT hoaDon_id (#PCDATA)>
+<!ELEMENT khuyenMai_id (#PCDATA)>
+<!ELEMENT nhanVien_id (#PCDATA)>
+<!ELEMENT khachHang_id (#PCDATA)>
+<!ELEMENT tongTien (#PCDATA)>
+<!ELEMENT khachTra (#PCDATA)>
+<!ELEMENT ghiChu (#PCDATA)>
+<!ELEMENT created_at (#PCDATA)> 

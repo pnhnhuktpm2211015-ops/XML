@@ -1,0 +1,9 @@
+<!ELEMENT ChiTietHoaDons (ChiTietHoaDon+)>
+<!ELEMENT ChiTietHoaDon (cthd_id, mon_id, ban_id, hoaDon_id, soLuong, chietKhau, ghiChu)>
+<!ELEMENT cthd_id (#PCDATA)>
+<!ELEMENT mon_id (#PCDATA)>
+<!ELEMENT ban_id (#PCDATA)>
+<!ELEMENT hoaDon_id (#PCDATA)>
+<!ELEMENT soLuong (#PCDATA)>
+<!ELEMENT chietKhau (#PCDATA)>
+<!ELEMENT ghiChu (#PCDATA)>

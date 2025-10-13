@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChiTietHoaDons
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="ChiTietHoaDons.xsd"
+>
+    <ChiTietHoaDon>
+        <cthd_id>CT01</cthd_id>
+        <mon_id>M01</mon_id>
+        <ban_id>B01</ban_id>
+        <hoaDon_id>HD01</hoaDon_id>
+        <soLuong>2</soLuong>
+        <chietKhau>0</chietKhau>
+        <ghiChu>Khong</ghiChu>
+    </ChiTietHoaDon>
+    <ChiTietHoaDon>
+        <cthd_id>CT02</cthd_id>
+        <mon_id>M02</mon_id>
+        <ban_id>B02</ban_id>
+        <hoaDon_id>HD02</hoaDon_id>
+        <soLuong>1</soLuong>
+        <chietKhau>50000</chietKhau>
+        <ghiChu>Ap dung KM</ghiChu>
+    </ChiTietHoaDon>
+    <ChiTietHoaDon>
+        <cthd_id>CT03</cthd_id>
+        <mon_id>M03</mon_id>
+        <ban_id>B03</ban_id>
+        <hoaDon_id>HD03</hoaDon_id>
+        <soLuong>3</soLuong>
+        <chietKhau>0</chietKhau>
+        <ghiChu>Khach goi them</ghiChu>
+    </ChiTietHoaDon>
+    <ChiTietHoaDon>
+        <cthd_id>CT04</cthd_id>
+        <mon_id>M04</mon_id>
+        <ban_id>B04</ban_id>
+        <hoaDon_id>HD04</hoaDon_id>
+        <soLuong>2</soLuong>
+        <chietKhau>50000</chietKhau>
+        <ghiChu>Khach VIP</ghiChu>
+    </ChiTietHoaDon>
+    <ChiTietHoaDon>
+        <cthd_id>CT05</cthd_id>
+        <mon_id>M05</mon_id>
+        <ban_id>B05</ban_id>
+        <hoaDon_id>HD05</hoaDon_id>
+        <soLuong>4</soLuong>
+        <chietKhau>20000</chietKhau>
+        <ghiChu>Happy Hour</ghiChu>
+    </ChiTietHoaDon>
+    <ChiTietHoaDon>
+        <cthd_id>CT06</cthd_id>
+        <mon_id>M06</mon_id>
+        <ban_id>B06</ban_id>
+        <hoaDon_id>HD06</hoaDon_id>
+        <soLuong>2</soLuong>
+        <chietKhau>120000</chietKhau>
+        <ghiChu>Giam gia 20%</ghiChu>
+    </ChiTietHoaDon>
+    <ChiTietHoaDon>
+        <cthd_id>CT07</cthd_id>
+        <mon_id>M07</mon_id>
+        <ban_id>B07</ban_id>
+        <hoaDon_id>HD07</hoaDon_id>
+        <soLuong>5</soLuong>
+        <chietKhau>200000</chietKhau>
+        <ghiChu>Black Friday</ghiChu>
+    </ChiTietHoaDon>
+</ChiTietHoaDons>

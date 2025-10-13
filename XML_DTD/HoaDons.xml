@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HoaDons SYSTEM "HoaDons.dtd">
+<HoaDons>
+    <HoaDon>
+        <hoaDon_id>HD01</hoaDon_id>
+        <khuyenMai_id>KM01</khuyenMai_id>
+        <nhanVien_id>NV01</nhanVien_id>
+        <khachHang_id>KH01</khachHang_id>
+        <tongTien>250000</tongTien>
+        <khachTra>250000</khachTra>
+        <ghiChu>Thanh toan tien mat</ghiChu>
+        <created_at>2025-01-05T10:00:00</created_at>
+    </HoaDon>
+    <HoaDon>
+        <hoaDon_id>HD02</hoaDon_id>
+        <khuyenMai_id>KM02</khuyenMai_id>
+        <nhanVien_id>NV02</nhanVien_id>
+        <khachHang_id>KH02</khachHang_id>
+        <tongTien>180000</tongTien>
+        <khachTra>130000</khachTra>
+        <ghiChu>Ap dung giam gia</ghiChu>
+        <created_at>2025-02-10T12:00:00</created_at>
+    </HoaDon>
+    <HoaDon>
+        <hoaDon_id>HD03</hoaDon_id>
+        <khuyenMai_id>KM03</khuyenMai_id>
+        <nhanVien_id>NV03</nhanVien_id>
+        <khachHang_id>KH03</khachHang_id>
+        <tongTien>320000</tongTien>
+        <khachTra>320000</khachTra>
+        <ghiChu>Dat truoc</ghiChu>
+        <created_at>2025-03-15T18:00:00</created_at>
+    </HoaDon>
+    <HoaDon>
+        <hoaDon_id>HD04</hoaDon_id>
+        <khuyenMai_id>KM04</khuyenMai_id>
+        <nhanVien_id>NV04</nhanVien_id>
+        <khachHang_id>KH04</khachHang_id>
+        <tongTien>500000</tongTien>
+        <khachTra>450000</khachTra>
+        <ghiChu>Khach VIP</ghiChu>
+        <created_at>2025-04-20T20:00:00</created_at>
+    </HoaDon>
+    <HoaDon>
+        <hoaDon_id>HD05</hoaDon_id>
+        <khuyenMai_id>KM05</khuyenMai_id>
+        <nhanVien_id>NV05</nhanVien_id>
+        <khachHang_id>KH05</khachHang_id>
+        <tongTien>200000</tongTien>
+        <khachTra>180000</khachTra>
+        <ghiChu>Happy Hour</ghiChu>
+        <created_at>2025-05-25T15:00:00</created_at>
+    </HoaDon>
+    <HoaDon>
+        <hoaDon_id>HD06</hoaDon_id>
+        <khuyenMai_id>KM06</khuyenMai_id>
+        <nhanVien_id>NV06</nhanVien_id>
+        <khachHang_id>KH06</khachHang_id>
+        <tongTien>600000</tongTien>
+        <khachTra>480000</khachTra>
+        <ghiChu>Giam gia 20%</ghiChu>
+        <created_at>2025-06-10T13:00:00</created_at>
+    </HoaDon>
+    <HoaDon>
+        <hoaDon_id>HD07</hoaDon_id>
+        <khuyenMai_id>KM07</khuyenMai_id>
+        <nhanVien_id>NV07</nhanVien_id>
+        <khachHang_id>KH07</khachHang_id>
+        <tongTien>1000000</tongTien>
+        <khachTra>800000</khachTra>
+        <ghiChu>Black Friday</ghiChu>
+        <created_at>2025-11-25T19:00:00</created_at>
+    </HoaDon>
+</HoaDons>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KhachHangs
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="KhachHangs.xsd"
+>
+    <KhachHang>
+        <khachHang_id>KH01</khachHang_id>
+        <tenKhachHang>Nguyen Van An</tenKhachHang>
+        <sdt>0911111111</sdt>
+        <ghiChu>Khach quen</ghiChu>
+    </KhachHang>
+    <KhachHang>
+        <khachHang_id>KH02</khachHang_id>
+        <tenKhachHang>Tran Thi Binh</tenKhachHang>
+        <sdt>0912222222</sdt>
+        <ghiChu>Lan dau toi</ghiChu>
+    </KhachHang>
+    <KhachHang>
+        <khachHang_id>KH03</khachHang_id>
+        <tenKhachHang>Le Van Cuong</tenKhachHang>
+        <sdt>0913333333</sdt>
+        <ghiChu>Dat truoc qua dien thoai</ghiChu>
+    </KhachHang>
+    <KhachHang>
+        <khachHang_id>KH04</khachHang_id>
+        <tenKhachHang>Pham Thi Dao</tenKhachHang>
+        <sdt>0914444444</sdt>
+        <ghiChu>Khach VIP</ghiChu>
+    </KhachHang>
+    <KhachHang>
+        <khachHang_id>KH05</khachHang_id>
+        <tenKhachHang>Vo Van Em</tenKhachHang>
+        <sdt>0915555555</sdt>
+        <ghiChu>Thuong xuyen</ghiChu>
+    </KhachHang>
+    <KhachHang>
+        <khachHang_id>KH06</khachHang_id>
+        <tenKhachHang>Dang Thi F</tenKhachHang>
+        <sdt>0916666666</sdt>
+        <ghiChu>Gop y ve dich vu</ghiChu>
+    </KhachHang>
+    <KhachHang>
+        <khachHang_id>KH07</khachHang_id>
+        <tenKhachHang>Hoang Van G</tenKhachHang>
+        <sdt>0917777777</sdt>
+        <ghiChu>Khach moi</ghiChu>
+    </KhachHang>
+</KhachHangs>
