@@ -1,8 +1,0 @@
-<!ELEMENT KhuyenMais (KhuyenMai+)>
-<!ELEMENT KhuyenMai (khuyenMai_id, tenKhuyenMai, hinhThuc, ngay_batdau, ngay_ketthuc, trangThaiKM_id)>
-<!ELEMENT khuyenMai_id (#PCDATA)>
-<!ELEMENT tenKhuyenMai (#PCDATA)>
-<!ELEMENT hinhThuc (#PCDATA)>
-<!ELEMENT ngay_batdau (#PCDATA)>
-<!ELEMENT ngay_ketthuc (#PCDATA)>
-<!ELEMENT trangThaiKM_id (#PCDATA)>

@@ -1,7 +1,0 @@
-<!ELEMENT Mons (Mon+)>
-<!ELEMENT Mon (mon_id, tenMon, gia, loai_id, trangThaiMon_id)>
-<!ELEMENT mon_id (#PCDATA)>
-<!ELEMENT tenMon (#PCDATA)>
-<!ELEMENT gia (#PCDATA)>
-<!ELEMENT loai_id (#PCDATA)>
-<!ELEMENT trangThaiMon_id (#PCDATA)>
