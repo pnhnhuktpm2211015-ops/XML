@@ -1,6 +1,0 @@
-<!ELEMENT Bans (Ban+)>
-<!ELEMENT Ban (ban_id, soGhe, trangThai_id, trangThaiBan_id)>
-<!ELEMENT ban_id (#PCDATA)>
-<!ELEMENT soGhe (#PCDATA)>
-<!ELEMENT trangThai_id (#PCDATA)>
-<!ELEMENT trangThaiBan_id (#PCDATA)>
