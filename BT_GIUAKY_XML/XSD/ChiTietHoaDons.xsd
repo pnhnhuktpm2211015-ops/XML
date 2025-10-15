@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="ChiTietHoaDons">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ChiTietHoaDon" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cthd_id" type="xs:string"/>
+                            <xs:element name="mon_id" type="xs:string"/>
+                            <xs:element name="ban_id" type="xs:string"/>
+                            <xs:element name="hoaDon_id" type="xs:string"/>
+                            <xs:element name="soLuong" type="xs:positiveInteger"/>
+                            <xs:element name="chietKhau" type="xs:decimal"/>
+                            <xs:element name="ghiChu" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

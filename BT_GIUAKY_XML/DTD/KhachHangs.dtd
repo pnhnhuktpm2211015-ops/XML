@@ -1,0 +1,6 @@
+<!ELEMENT KhachHangs (KhachHang+)>
+<!ELEMENT KhachHang (khachHang_id, tenKhachHang, sdt, ghiChu?)>
+<!ELEMENT khachHang_id (#PCDATA)>
+<!ELEMENT tenKhachHang (#PCDATA)>
+<!ELEMENT sdt (#PCDATA)>
+<!ELEMENT ghiChu (#PCDATA)>

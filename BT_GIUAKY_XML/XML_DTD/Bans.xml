@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bans SYSTEM "Bans.dtd">
+<Bans>
+    <Ban>
+        <ban_id>B01</ban_id>
+        <soGhe>4</soGhe>
+        <trangThai_id>1</trangThai_id>
+        <trangThaiBan_id>1</trangThaiBan_id>
+    </Ban>
+    <Ban>
+        <ban_id>B02</ban_id>
+        <soGhe>2</soGhe>
+        <trangThai_id>1</trangThai_id>
+        <trangThaiBan_id>2</trangThaiBan_id>
+    </Ban>
+    <Ban>
+        <ban_id>B03</ban_id>
+        <soGhe>6</soGhe>
+        <trangThai_id>0</trangThai_id>
+        <trangThaiBan_id>1</trangThaiBan_id>
+    </Ban>
+    <Ban>
+        <ban_id>B04</ban_id>
+        <soGhe>4</soGhe>
+        <trangThai_id>1</trangThai_id>
+        <trangThaiBan_id>1</trangThaiBan_id>
+    </Ban>
+    <Ban>
+        <ban_id>B05</ban_id>
+        <soGhe>8</soGhe>
+        <trangThai_id>1</trangThai_id>
+        <trangThaiBan_id>2</trangThaiBan_id>
+    </Ban>
+    <Ban>
+        <ban_id>B06</ban_id>
+        <soGhe>10</soGhe>
+        <trangThai_id>0</trangThai_id>
+        <trangThaiBan_id>1</trangThaiBan_id>
+    </Ban>
+    <Ban>
+        <ban_id>B07</ban_id>
+        <soGhe>2</soGhe>
+        <trangThai_id>1</trangThai_id>
+        <trangThaiBan_id>1</trangThaiBan_id>
+    </Ban>
+</Bans>

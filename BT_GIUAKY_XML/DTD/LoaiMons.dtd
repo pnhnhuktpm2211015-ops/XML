@@ -1,0 +1,4 @@
+<!ELEMENT LoaiMons (LoaiMon+)>
+<!ELEMENT LoaiMon (loai_id, tenLoaiMon)>
+<!ELEMENT loai_id (#PCDATA)>
+<!ELEMENT tenLoaiMon (#PCDATA)>

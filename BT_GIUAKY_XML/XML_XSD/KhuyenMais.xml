@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KhuyenMais
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="KhuyenMais.xsd"
+>
+    <KhuyenMai>
+        <khuyenMai_id>KM01</khuyenMai_id>
+        <tenKhuyenMai>Giam gia 10%</tenKhuyenMai>
+        <hinhThuc>Phan Tram</hinhThuc>
+        <ngay_batdau>2025-01-01</ngay_batdau>
+        <ngay_ketthuc>2025-01-31</ngay_ketthuc>
+        <trangThaiKM_id>1</trangThaiKM_id>
+    </KhuyenMai>
+    <KhuyenMai>
+        <khuyenMai_id>KM02</khuyenMai_id>
+        <tenKhuyenMai>Giam 50k</tenKhuyenMai>
+        <hinhThuc>Tien Mat</hinhThuc>
+        <ngay_batdau>2025-02-01</ngay_batdau>
+        <ngay_ketthuc>2025-02-28</ngay_ketthuc>
+        <trangThaiKM_id>1</trangThaiKM_id>
+    </KhuyenMai>
+    <KhuyenMai>
+        <khuyenMai_id>KM03</khuyenMai_id>
+        <tenKhuyenMai>Mua 2 tang 1</tenKhuyenMai>
+        <hinhThuc>So Luong</hinhThuc>
+        <ngay_batdau>2025-03-01</ngay_batdau>
+        <ngay_ketthuc>2025-03-31</ngay_ketthuc>
+        <trangThaiKM_id>1</trangThaiKM_id>
+    </KhuyenMai>
+    <KhuyenMai>
+        <khuyenMai_id>KM04</khuyenMai_id>
+        <tenKhuyenMai>Khach VIP</tenKhuyenMai>
+        <hinhThuc>Phan Tram</hinhThuc>
+        <ngay_batdau>2025-04-01</ngay_batdau>
+        <ngay_ketthuc>2025-12-31</ngay_ketthuc>
+        <trangThaiKM_id>1</trangThaiKM_id>
+    </KhuyenMai>
+    <KhuyenMai>
+        <khuyenMai_id>KM05</khuyenMai_id>
+        <tenKhuyenMai>Happy Hour</tenKhuyenMai>
+        <hinhThuc>Phan Tram</hinhThuc>
+        <ngay_batdau>2025-05-01</ngay_batdau>
+        <ngay_ketthuc>2025-05-31</ngay_ketthuc>
+        <trangThaiKM_id>1</trangThaiKM_id>
+    </KhuyenMai>
+    <KhuyenMai>
+        <khuyenMai_id>KM06</khuyenMai_id>
+        <tenKhuyenMai>Giam gia 20%</tenKhuyenMai>
+        <hinhThuc>Phan Tram</hinhThuc>
+        <ngay_batdau>2025-06-01</ngay_batdau>
+        <ngay_ketthuc>2025-06-30</ngay_ketthuc>
+        <trangThaiKM_id>1</trangThaiKM_id>
+    </KhuyenMai>
+    <KhuyenMai>
+        <khuyenMai_id>KM07</khuyenMai_id>
+        <tenKhuyenMai>Black Friday</tenKhuyenMai>
+        <hinhThuc>Phan Tram</hinhThuc>
+        <ngay_batdau>2025-11-20</ngay_batdau>
+        <ngay_ketthuc>2025-11-30</ngay_ketthuc>
+        <trangThaiKM_id>1</trangThaiKM_id>
+    </KhuyenMai>
+</KhuyenMais>

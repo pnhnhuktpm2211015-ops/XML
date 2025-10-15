@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <xs:element name="HoaDons">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="HoaDon" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="hoaDon_id" type="xs:string"/>
+                            <xs:element name="khuyenMai_id" type="xs:string"/>
+                            <xs:element name="nhanVien_id" type="xs:string"/>
+                            <xs:element name="khachHang_id" type="xs:string"/>
+                            <xs:element name="tongTien" type="xs:decimal"/>
+                            <xs:element name="khachTra" type="xs:decimal"/>
+                            <xs:element name="ghiChu" type="xs:string"/>
+                            <xs:element name="created_at" type="xs:dateTime"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

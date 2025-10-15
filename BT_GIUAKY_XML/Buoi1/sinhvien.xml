@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class SYSTEM "sinhvien.dtd">
+<class>
+    <student>
+        <name>Nguyễn Văn A</name>
+        <id>SV001</id>
+        <subjects>
+            <subject>
+                <subject_name>Hệ thống thông tin địa lý</subject_name>
+                <score>8.5</score>
+            </subject>
+            <subject>
+                <subject_name>Công nghệ XMl và ứng dụng</subject_name>
+                <score>9.0</score>
+            </subject>
+        </subjects>
+    </student>
+
+    <student>
+        <name>Trần Thị B</name>
+        <id>SV002</id>
+        <subjects>
+            <subject>
+                <subject_name>Bảo trì phần mềm </subject_name>
+                <score>8.5</score>
+            </subject>
+            <subject>
+                <subject_name>Xác xuất thống kế</subject_name>
+                <score>8.2</score>
+            </subject>
+        </subjects>
+    </student>
+
+    <student>
+        <name>Lê Minh C</name>
+        <id>SV003</id>
+        <subjects>
+            <subject>
+                <subject_name>Lập trình web</subject_name>
+                <score>8.0</score>
+            </subject>
+            <subject>
+                <subject_name>Cấu trúc dữ liệu</subject_name>
+                <score>9.1</score>
+            </subject>
+        </subjects>
+    </student>
+</class>
